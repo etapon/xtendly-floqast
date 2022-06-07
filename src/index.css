@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,62 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("./res/main_background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.formContainer {
+  margin-top: 21vh;
+  margin-bottom: 10vh;
+  bottom: 8vh;
+  width: 74vw;
+  height: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.formTitle {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: aliceblue;
+  background-image: url("./res/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.gray {
+  color: #6d6e70;
+}
+
+.darkGray {
+  color: #3f3f3f;
+}
+
+.green {
+  color: #8bc540;
+}
+
+.formTop {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.titleContainer {
+  background: linear-gradient(to left, rgba(255,255,255,0) 40%,
+              rgba(255,255,255,1));
+  padding: 4vw;
+  padding-left: 13vw;
+  margin-top: 20vh;
+  font-style: italic;
 }
